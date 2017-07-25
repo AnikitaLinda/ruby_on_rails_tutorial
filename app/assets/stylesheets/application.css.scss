@@ -20,3 +20,13 @@
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
+
+body, .navbar {
+  background: #EB3349;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+  background: linear-gradient(to right, #ff5f6d, #ffc371);
+}
+
+.navbar {
+  border:none;
+}
