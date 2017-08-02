@@ -22,6 +22,7 @@
 // Typography styles 
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
+  margin-bottom: 20px;
 }
 
 // Background gradient
@@ -61,6 +62,9 @@ h1, h2, h3 {
   }
 }
 
+.navbar-btn {
+  margin-left: 15px;
+}
 
 // Homepage styles
 .home-callout {
@@ -84,4 +88,11 @@ h1, h2, h3 {
 
 .home-signup-links {
   margin-top: 30px;
+}
+
+// Form styles
+
+.form-control:focus {
+    border-color: #ffc371;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(234, 167, 75, 0.6);
 }
