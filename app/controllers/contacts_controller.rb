@@ -21,13 +21,13 @@ class ContactsController < ApplicationController
       ContactMailer.contact_email(name, email, body).deliver
       # Store success message in flash hash
       # and redirect to the new action
-      flash[:sucess] = "Message sent."
+      flash[:success] = "Message sent."
       redirect_to new_contact_path
     else
       # If contact object doesn' t safe
       # store errors in flash hash
       # and redirect to the new action
-      flash[:warning] = @contact.errors.full_messages.join(", ")
+      flash[:danger] = @contact.errors.full_messages.join(", ")
       redirect_to new_contact_path
     end
   end

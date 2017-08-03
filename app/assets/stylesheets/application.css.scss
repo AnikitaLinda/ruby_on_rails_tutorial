@@ -77,10 +77,12 @@ h1, h2, h3 {
 .flash-container {
   position: absolute;
   width: 100%;
+  z-index: 999;
 }
 
 .alert-notice, .alert-alert {
   text-align: center;
+  color: #3b3b3b;
   background: rgba(255, 255, 255, 0.3);
   border-color: rgba(255, 255, 255, 0.5);
   margin-top: -14px;
@@ -95,4 +97,8 @@ h1, h2, h3 {
 .form-control:focus {
     border-color: #ffc371;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(234, 167, 75, 0.6);
+}
+
+.well {
+  margin-top: 50px;
 }
