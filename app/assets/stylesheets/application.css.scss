@@ -20,9 +20,19 @@
 @import "font-awesome";
  
 // Typography styles 
+
+
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
 }
 
 // Background gradient
